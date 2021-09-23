@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+
+		<title>What's cookin'?</title>
+	</head>
+	
+  <body>
+    <div>
+		  <h1>Whatcha need </br>for cookin'</h1>
+		  <h2>good lookin'</h2>
+		  <p>
+        It's simple, just add the items that you need </br> and run to the store and
+        pick them up.
+		  </p>
+   
+      <form class="inputForm">
+        <input type="text" id="inputItem" name="item" placeholder="item"/>
+        <input type="number" id="inputQty" name="qty" value=1 min="1"/> 
+        <button type="button" onclick="addItem()">add</button>
+      </form>
+    </div>
+
+    <div class="list" id="table">
+      <table>
+        <tbody id="shoppingList" class="shoppingList">
+          <tr class="shoppingHeader">
+            <th>item</th>
+            <th>qty</th>
+          </tr>
+        </tbody>
+      </table>
+      <button type="button" class="exportButton" onclick="exportPdf()">export</button>
+    </div>
+
+		<script src="./java.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js" ></script>
+	</body>
+</html>

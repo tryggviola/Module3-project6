@@ -1,0 +1,192 @@
+/* Styling for body */
+
+body {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	column-gap: 50px;
+
+	margin: 100px 16px;
+
+	max-width: 1200px;
+	min-width: 369px;
+
+	font-family: "Roboto";
+}
+
+/* Styling all buttons */
+
+button {
+	height: 50px;
+	width: 192px;
+
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+
+	background-color: #f26d6d;
+	outline: none;
+	border: none;
+
+	margin-bottom: 80px;
+}
+
+/* Button animation and hover */
+
+button:hover {
+	background-color: #f23d3d;
+}
+
+button:active {
+	background-color: #f23d3d;
+	transform: translateY(4px);
+}
+
+/* Styling all texts */
+
+h1 {
+	font-size: 80px;
+	font-weight: bold;
+	color: #f26d6d;
+
+	margin-bottom: 4px;
+	margin-top: 0px;
+}
+
+h2 {
+	margin-top: 4px;
+	margin-bottom: 120px;
+
+	font-size: 64px;
+	font-weight: 100;
+	color: #1f1f1f;
+}
+
+p {
+	display: none;
+
+	margin-top: 24px;
+	margin-bottom: 210px;
+
+	font-size: 32px;
+	font-weight: 100;
+	color: #1f1f1f;
+}
+
+/* Input form for shopping list */
+
+.inputForm {
+	max-width: 509px;
+	min-width: 369px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	column-gap: 26px;
+
+	font-weight: 100;
+}
+
+#inputItem {
+	min-width: 369px;
+	font-weight: 100;
+}
+
+#inputQty {
+	width: 96px;
+}
+
+input {
+	height: 50px;
+	margin-bottom: 48px;
+	background-color: #eeeeee;
+	border: none;
+	outline: none;
+
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+/* Styling shopping list table */
+
+.list {
+	min-width: 369px;
+	max-width: 497px;
+	width: 100%;
+}
+
+.shoppingHeader {
+	font-size: 32px;
+	font-weight: 100;
+	color: #1f1f1f;
+
+	border-bottom: 1px solid black;
+}
+
+table {
+	padding-bottom: 80px;
+	width: 100%;
+	text-transform: lowercase;
+	font-weight: 100;
+}
+
+th {
+	margin-bottom: 16px;
+	font-weight: 100;
+}
+
+tr {
+	font-size: 32px;
+	font-weight: 100;
+	color: #1f1f1f;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+td {
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+
+/* Media codes */
+
+@media (max-width: 535px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	h1 {
+		font-size: 56px;
+		width: 369px;
+	}
+	h2 {
+		font-size: 48px;
+		width: 369px;
+	}
+
+	.inputForm {
+		max-width: 369px;
+	}
+
+	.list {
+		max-width: 369px;
+	}
+}
+
+@media (min-width: 720px) {
+	body {
+		margin: 100px 80px;
+	}
+}
+
+/* display p content on screen size 620px */
+@media (min-width: 620px) {
+	p {
+		display: block;
+	}
+	h2 {
+		margin-bottom: 24px;
+	}
+}
