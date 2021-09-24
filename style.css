@@ -9,7 +9,7 @@ body {
 	margin: 100px 16px;
 
 	max-width: 1200px;
-	min-width: 369px;
+	min-width: 340px;
 
 	font-family: "Roboto";
 }
@@ -84,7 +84,7 @@ p {
 
 .inputForm {
 	max-width: 509px;
-	min-width: 369px;
+	min-width: 340px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -94,7 +94,7 @@ p {
 }
 
 #inputItem {
-	min-width: 369px;
+	min-width: 340px;
 	font-weight: 100;
 }
 
@@ -116,7 +116,7 @@ input {
 /* Styling shopping list table */
 
 .list {
-	min-width: 369px;
+	min-width: 340px;
 	max-width: 497px;
 	width: 100%;
 }
@@ -206,20 +206,20 @@ td {
 		align-items: center;
 	}
 	h1 {
-		font-size: 56px;
-		width: 369px;
+		font-size: 52px;
+		width: 340px;
 	}
 	h2 {
 		font-size: 48px;
-		width: 369px;
+		width: 340px;
 	}
 
 	.inputForm {
-		max-width: 369px;
+		max-width: 340px;
 	}
 
 	.list {
-		max-width: 369px;
+		max-width: 340px;
 	}
 }
 
