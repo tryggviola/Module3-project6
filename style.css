@@ -168,7 +168,7 @@ td {
 	background: #fff;
 	transition: all 0.5s;
 
-	margin: -100px -16px;
+	margin: -100px 0;
 }
 .loader .ring {
 	height: 105px;
