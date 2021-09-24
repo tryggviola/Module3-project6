@@ -3,26 +3,26 @@
 # Module3 / Project6 / DOM Manipulation & Timing
 
 ## Project Brief
-Create a one page website that dose the following: 
-Use Event listeners to add interactivity in the application // Press enter to add things to the list, you can also press tab to move between inputs
-Use a few animations made with CSS transitions // Button hover and click animation
-Display a loading screen for a couple seconds using setTimeout // Loadingscreen when you load/refresh the page
-Display a clock or timer on the screen  // Clock is ticking...
-Website should be styled with CSS
+<li>Create a one page website that dose the following: </li>
+<li>Use Event listeners to add interactivity in the application // Press enter to add things to the list, you can also press tab to move between inputs</li>
+<li>Use a few animations made with CSS transitions // Button hover and click animation</li>
+<li>Display a loading screen for a couple seconds using setTimeout // Loadingscreen when you load/refresh the page</li>
+<li>Display a clock or timer on the screen  // Clock is ticking...</li>
+<li>Website should be styled with CSS</li>
 
 
 ## The Goal
 
-Understand what is the DOM
-Understand why the DOM is only available in browsers
-Understand what event listeners are
-Understand the timing functions in Javascript
+<li>Understand what is the DOM</li>
+<li>Understand why the DOM is only available in browsers</li>
+<li>Understand what event listeners are</li>
+<li>Understand the timing functions in Javascript</li>
 
-Be able to select elements form the DOM and change them with Javascript
-Be able to iterate through collections of DOM elements
-Be able to add event listeners to DOM elements
-Be able to create animations by manipulating element classes
-Be able to create a timer for a an action
+<li>Be able to select elements form the DOM and change them with Javascript</li>
+<li>Be able to iterate through collections of DOM elements</li>
+<li>Be able to add event listeners to DOM elements</li>
+<li>Be able to create animations by manipulating element classes</li>
+<li>Be able to create a timer for a an action</li>
 
 
 ## Intro
