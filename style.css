@@ -56,7 +56,6 @@ h1 {
 
 h2 {
 	margin-top: 4px;
-	margin-bottom: 120px;
 
 	font-size: 64px;
 	font-weight: 100;
@@ -72,6 +71,13 @@ p {
 	font-size: 32px;
 	font-weight: 100;
 	color: #1f1f1f;
+}
+
+#clock {
+	color: #f26d6d;
+	font-weight: bold;
+
+	margin-bottom: 120px;
 }
 
 /* Input form for shopping list */
@@ -235,5 +241,8 @@ td {
 	}
 	h2 {
 		margin-bottom: 24px;
+	}
+	#clock {
+		margin-bottom: 0px;
 	}
 }

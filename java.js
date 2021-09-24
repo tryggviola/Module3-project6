@@ -10,6 +10,13 @@ window.onload = function () {
 	}, 2000);
 };
 
+setInterval(myTimer, 1000);
+
+function myTimer() {
+	const d = new Date();
+	document.getElementById("clock").innerHTML = `Clock is tickin ${d.toLocaleTimeString()}`;
+}
+
 // add item to shopping list table from input
 function addItem() {
 	// get value from input item and input qty
