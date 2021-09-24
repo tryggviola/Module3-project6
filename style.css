@@ -67,7 +67,7 @@ p {
 	display: none;
 
 	margin-top: 24px;
-	margin-bottom: 210px;
+	margin-bottom: 110px;
 
 	font-size: 32px;
 	font-weight: 100;
@@ -151,7 +151,7 @@ td {
 
 /* Media codes */
 
-@media (max-width: 535px) {
+@media (max-width: 630px) {
 	body {
 		display: flex;
 		flex-direction: column;
@@ -175,14 +175,14 @@ td {
 	}
 }
 
-@media (min-width: 720px) {
+@media (min-width: 750px) {
 	body {
 		margin: 100px 80px;
 	}
 }
 
-/* display p content on screen size 620px */
-@media (min-width: 620px) {
+/* display p content on screen size 630px */
+@media (min-width: 631px) {
 	p {
 		display: block;
 	}
