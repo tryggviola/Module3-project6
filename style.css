@@ -167,6 +167,8 @@ td {
 	justify-content: center;
 	background: #fff;
 	transition: all 0.5s;
+
+	margin: -100px -16px;
 }
 .loader .ring {
 	height: 105px;
@@ -224,6 +226,10 @@ td {
 @media (min-width: 750px) {
 	body {
 		margin: 100px 80px;
+	}
+
+	.loader {
+		margin: -100px -80px;
 	}
 
 	.loader .ring {
